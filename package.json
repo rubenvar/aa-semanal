@@ -1,0 +1,14 @@
+{
+  "name": "aa-semanal",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "parcel serve ./index.pug --open",
+    "build": "parcel build ./index.pug --dist-dir ./build --no-source-maps"
+  },
+  "devDependencies": {
+    "@parcel/transformer-pug": "^2.0.0-beta.3.1",
+    "@parcel/transformer-stylus": "^2.0.0-beta.3.1",
+    "parcel": "^2.0.0-beta.3.1"
+  }
+}
